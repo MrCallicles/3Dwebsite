@@ -4,7 +4,21 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="test aa"></div>
-        <div class="test bb"></div>
+        <section id="blue" class="container">
+            <div id="card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+        </section>
+        <a href="#">flip it!</a>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        f(documen"t).ready(f"unction(){
+            $("a").click(function(){
+                $("#card").toggleClass("flipped");
+            })
+        })
+    </script>
     </body>
 </html>
