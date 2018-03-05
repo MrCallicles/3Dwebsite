@@ -1,4 +1,28 @@
 body {
+    
     margin : 0;
-    padding: 0;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    perspective : 400px;
+}
+
+.test{
+    width: 300px;
+    height: 300px;
+}
+
+.aa{
+    background: red;
+    transform : rotateY(90deg);
+}
+
+.bb{
+    background: blue;
+    transform : rotateY(90deg);
+}
+
+.cc{
+    background: grey;
+    transform : rotateY(90deg);
 }
