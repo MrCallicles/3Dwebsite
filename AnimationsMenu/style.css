@@ -5,6 +5,9 @@ body{
 }
 
 .menu{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
     position: absolute;
     top: 0;
     left: 50px;
@@ -13,12 +16,35 @@ body{
     background: #ccc;
 }
 
-.menu div{
-    padding-left: 1.25em;
+.menu li{
     height: 5em;
     border-bottom: 1px solid #eee;
 }
 
-.menu__titrecolor{
-    background:yellow;
+.menu__list{
+    background: rgba(180,180,200,.8);
 }
+
+.menu__block{
+    position: absolute;
+    width:10px;
+    height: inherit;
+    transition: all 800ms;
+}
+
+.menu__label{
+    position: relative;
+    left: 20px;
+    top: 30%;
+}
+
+.menu__list:active .menu__block{
+    width: 100%;
+}
+
+#titre{ background: red; }
+#about{ background: yellow; }
+#work{ background: blue; } 
+#client{ background: orange; }
+#contact{ background: navy; }
+#share{ background: green; }
