@@ -20,7 +20,12 @@ body{
     padding-bottom: 2em;
 }
 
-.header ul{
+/*
+ * Voir les selecteurs pour pas trop faire
+ * de la m
+ *
+ */
+.header > ul{
     display : flex;
 }
 
@@ -36,6 +41,11 @@ body{
 }
 .header ul li a:hover{
     color: #ddd;
+}
+
+.submenu{
+    //display: none !important;
+    position: relative;
 }
 
 /* Principal */
