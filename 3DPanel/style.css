@@ -16,9 +16,20 @@ body{
 .container__panel{
     background-color: #eeee;
     color: #fff;
-    transition: background-color 500ms;
+    perspective : 600px;
+    transition: all 500ms;
 }
 
 .container__panel:hover{
     background-color: #dddddddd;
+}
+
+.container__panel.left:hover{
+    background-color: blue;
+    transform: rotateY(0.1turn);
+}
+
+.container__panel.right:hover{
+    background-color: red;
+    transform: rotateY(-0.1turn);
 }
