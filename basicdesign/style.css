@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin : 0;
+    margin-left : 1.5%;
+    margin-right: 1.5%;
+    padding : 0;
+    background: #eee;
+}
+
+/* HEADER */
+
+.header{
+    color: #DDD;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    background: #333;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.header ul{
+    display : flex;
+}
+
+.header ul li{
+    list-style-type: none;
+    margin-left: 1.5em;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #999;
+    transition: color 1s;
+}
+.header ul li a:hover{
+    color: #ddd;
+}
+
+/* Principal */
+.principal{
+    display: flex;
+    justify-content : space-around;
+    background: #fff;
+    min-height: 100%;
+}
+
+/* Content */
+.content {
+    width: 60%;
+    margin-left: 3em;
+    margin-right: 1.5em;
+    
+}
+.content h2{
+    font-size: 2em;
+}
+
+.content .date{
+    font-size: 1em;
+    color: #bbb;
+}
+
+/* Commercial */
+.commercial{
+    width: 40%;
+    margin-left: 1.5em;
+    margin-right: 3em;
+}
+
+/* Separateur */
+.separateur{
+    min-height: 10em;
+}
+.pub{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    background: #eee;
+    padding-left: 2em;
+}
+
+/* Sub-menu */
+.sub:hover{
+    
+}
