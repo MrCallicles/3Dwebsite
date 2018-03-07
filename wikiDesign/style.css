@@ -1,33 +1,102 @@
+/*
+ * Header
+ * Toolbar
+ * Principal
+ * Menu
+ *
+ *
+*/
+
 body{
     margin: 0;
     padding: 0;
+    background : #eee;
 }
+
+/*Header*/
+.header{
+    padding: 0;
+    margin: 0;
+    font-size: 2.5em;
+    width: inherit;
+    height: 3em;
+    background: rgb(200,200,230);
+}
+
+.header h2{
+    padding: 0;
+    margin: 0;
+    padding-left: 2em;
+}
+
+/*Toolbar*/
+.toolbar{
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+.tools{
+    height: 3em;
+    padding: 0;
+    padding-top: 1em;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+}
+
+.tools li{
+    margin-left: 2em;
+}
+
+.tools__item{
+    padding: .5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    background: rgb(200,200,230);
+    border: 1px solid grey;
+}
+
+/*Principal*/
+
+/*Menu*/
 .menu{
     position: absolute;
-    top 0;
-    left 0;
     list-style-type: none;
     background: rgba(150,150,150, .8);
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    width: 15%;
-    height: 99%;
-    overflow : scroll;
+    width: 200px;
+    min-height: 100%;
     border: 1px solid black;
 }
 
 .menu__label{
-    padding: 2em;    
 }
 
 .submenu{
     list-style-type: none;
     margin-left: 2.5%;
-    padding: 0;
+    padding-left: 2em;
     font-family: serif;
+}
+
+.menu__label:hover{
+    background: rgba(200,200,230, .8);
 }
 
 .submenu li:hover{
     background: rgba(200,200,230, .8);
 }
+
+/* Content */
+.content{
+    position: absolute;
+    left: 210px;
+    width: 80%;
+    min-height: 100%;
+    padding-top: .5em;
+    background: #fff;
+}
+

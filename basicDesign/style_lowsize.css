@@ -7,15 +7,19 @@ body{
     padding : 0;
     background: #eee;
 }
-
 /* HEADER */
 
 .header{
     color: #DDD;
     display: flex;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: flex-start;
+    margin : 0;
     background: #333;
+}
+
+.header h2{
+    padding-left: 2em;
 }
 
 /*
