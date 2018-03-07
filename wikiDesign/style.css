@@ -55,18 +55,13 @@ body{
     margin-right: 1em;
     background: rgb(200,200,230);
     border: 1px solid grey;
-    border-bottom: 5px solid grey;
     border-radius: 5px;
+    box-shadow: 0 4px #999;
 }
 
 .tools__item:hover{
     background: rgb(100,100,130);
-}
-
-.tools_item:active{
-    margin-top: .2em;
-    padding-top: 5px;
-    border-bottom: 1px solid grey;
+    cursor: pointer;
 }
 
 /*Principal*/
