@@ -29,6 +29,7 @@ body{
     width:10px;
     height: inherit;
     transition: all 800ms;
+    transition-timing-function: cubic-bezier(0,1,0,1);
 }
 
 .menu__label{
@@ -37,7 +38,7 @@ body{
     top: 30%;
 }
 
-.menu__list:active .menu__block{
+.menu__list:hover .menu__block{
     width: 100%;
 }
 
