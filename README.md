@@ -6,7 +6,8 @@
 - [ ] advanced layout
 - [x] flexbox
 - [ ] grid
-- [x] 3D
+- [ ] without flexbox nor grid
+- [ ] 3D
 - [ ] button design
 - [x] transitions
 - [ ] animations
