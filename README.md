@@ -1,4 +1,4 @@
-# WebsitesExercices
+# FrontWebsitesExercices
 
 ## To work on
 
@@ -11,8 +11,10 @@
 - [x] transitions
 - [ ] animations
 - [ ] sub-menu
-- [ ] jquery integration
 - [x] basic mediaqueries
 - [ ] advanced mediaqueries
 - [ ] box-sizing
 - [ ] alignment
+- [ ] back-front integration (laravel, symphony, django)
+- [ ] jquery integration
+- [ ] front framework integration (angular, react, vue)
