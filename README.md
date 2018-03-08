@@ -15,6 +15,7 @@
 - [ ] sub-menu
 - [x] basic mediaqueries
 - [ ] advanced mediaqueries ?
+- [ ] finalized design
 - [ ] back-front integration (laravel, symphony, django)
 - [ ] jquery integration
 - [ ] front framework integration (angular, react, vue)
