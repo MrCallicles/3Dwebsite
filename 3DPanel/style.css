@@ -16,7 +16,9 @@ body{
 .container__panel{
     background-color: #eeee;
     color: #fff;
-    perspective : 600px;
+    perspective : 1200px;
+    border: 4px solid white;
+    transform: scale(0.7);
     transition: all 500ms;
 }
 
@@ -25,11 +27,11 @@ body{
 }
 
 .container__panel.left:hover{
-    background-color: blue;
-    transform: rotateY(0.1turn);
+    background-color: rgba(200,200,230,.8);
+    transform: scale(0.7) rotateY(30deg);
 }
 
 .container__panel.right:hover{
-    background-color: red;
-    transform: rotateY(-0.1turn);
+    background-color: rgba(230,200,200,.8);
+    transform: scale(0.7) rotateX(30deg);
 }
