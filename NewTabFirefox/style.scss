@@ -43,7 +43,7 @@ section{
         border-radius: 5px;
         padding-inline-start: 30px;
         padding-inline-end: 40px;
-        color: #eee;
+        color: #999;
         box-shadow: 0px 0px 15px rgba(150,150,150, .5);
     }
     input[type="button"]{
@@ -54,6 +54,7 @@ section{
         background-color: #fff;
         top: -$height_research;
         left: 800px - $height_research - 5px;
+        border-radius-right: 5px;
         cursor: pointer;
         &:hover{
             background-color: #ddd;
@@ -65,5 +66,44 @@ section{
     }
 }
 
+.elements_cles{
+    .banner{
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: .8rem;
+        color: #555;
+        margin-top: 20px;
+        cursor: pointer;
+        .banner__title{
+            display: inline-block;
+            cursor: inherit;
+        }
+        .banner__mod{
+            display: inline-block;
+            float: right;
+            visibility: hidden;
+            cursor: inherit;
+            .interrogation{
+                display: inline-block;
+                width: 20px;
+                float: right;
+                border: 3px rgba(0,0,0,0);
+                border-radius: 5px;
+                text-align: center;
+                transition: border 50ms ease-in;
+                cursor: default;
+                &:hover{
+                    background-color: #333;
+                    border: 3px #eee;
+                    border-radius: 5px;
+                    color: #fff;
+                }
+            }
+        }
+        &:hover .banner__mod{
+            visibility: visible;
+        }
+    }
+}
 
 

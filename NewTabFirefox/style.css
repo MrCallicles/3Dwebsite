@@ -34,7 +34,7 @@ section {
     border-radius: 5px;
     padding-inline-start: 30px;
     padding-inline-end: 40px;
-    color: #eee;
+    color: #999;
     box-shadow: 0px 0px 15px rgba(150, 150, 150, 0.5); }
   .research input[type="button"] {
     position: relative;
@@ -44,11 +44,44 @@ section {
     background-color: #fff;
     top: -35px;
     left: 760px;
+    border-radius-right: 5px;
     cursor: pointer; }
     .research input[type="button"]:hover {
       background-color: #ddd; }
   .research:hover {
     border: 3px solid #0A84FF;
     border-radius: 5px; }
+
+.elements_cles .banner {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: .8rem;
+  color: #555;
+  margin-top: 20px;
+  cursor: pointer; }
+  .elements_cles .banner .banner__title {
+    display: inline-block;
+    cursor: inherit; }
+  .elements_cles .banner .banner__mod {
+    display: inline-block;
+    float: right;
+    visibility: hidden;
+    cursor: inherit; }
+    .elements_cles .banner .banner__mod .interrogation {
+      display: inline-block;
+      width: 20px;
+      float: right;
+      border: 3px rgba(0, 0, 0, 0);
+      border-radius: 5px;
+      text-align: center;
+      transition: border 50ms ease-in;
+      cursor: default; }
+      .elements_cles .banner .banner__mod .interrogation:hover {
+        background-color: #333;
+        border: 3px #eee;
+        border-radius: 5px;
+        color: #fff; }
+  .elements_cles .banner:hover .banner__mod {
+    visibility: visible; }
 
 /*# sourceMappingURL=style.css.map */
